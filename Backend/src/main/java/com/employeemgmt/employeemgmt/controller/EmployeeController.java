@@ -13,6 +13,7 @@ import java.util.List;
 @RestController
 @AllArgsConstructor
 @RequestMapping("/api/employee")
+@CrossOrigin(origins = "http://localhost:5173")
 public class EmployeeController {
     private EmployeeService employeeService;
 
@@ -28,6 +29,7 @@ public class EmployeeController {
         EmployeeDto employeeDto = employeeService.getEmployeeById(employeeId);
         return new ResponseEntity<>(employeeDto, HttpStatus.OK);
     }
+
 
     @GetMapping
     public ResponseEntity<List<EmployeeDto>> getAllEmployees() {

@@ -57,7 +57,7 @@ const Display = () => {
 
   return (
     <div className="p-4">
-      <h1 className="text-2xl font-bold mb-4">Employee Records</h1>
+      <h1 className="text-2xl font-bold mb-4">Employee Records & Details</h1>
 
       <div className="mb-4">
         <input

@@ -38,6 +38,7 @@ const Display = () => {
       employee.email.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
+  //mass
   if (loading) {
     return (
       <div className="p-4">

@@ -39,6 +39,7 @@ const Display = () => {
   );
 
   //mass
+  //mass
   if (loading) {
     return (
       <div className="p-4">
